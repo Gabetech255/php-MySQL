@@ -1,0 +1,17 @@
+MySql notes
+
+LOGIN LINUX: $ mysql -u root -p --local-infile clients
+# this enables the infile cmd to be used allowing you to import data tables from local files on the server.
+
+-- CREATE
+	CREATE DATABASE
+	CREATE TABLE table_name ( name VARCHAR(20), last_name VARCHAR(20), birthdate DATE, last_updated TIMESTAMP);
+
+-- USE database_name; # targets the database 
+
+-- SELECT * FROM table_name; # shows the contents of the selected table
+
+-- DESCRIBE table_name; #gives info on table 
+
+-- LOAD DATA LOCAL INFILE '/path/file.txt' INTO TABLE table_name;
+
