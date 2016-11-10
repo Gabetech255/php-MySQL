@@ -8,8 +8,10 @@
 
         <?php
                 $servername = "localhost";
-                $username = "root";
-                $password = "toor";
+                //make sure to adjust these values when you apply this to your database 
+                $username = "username";
+                $password = "password";
+                //make sure to type the names of databases, tables, columns, etc exactly. char case counts. 
                 $dbname = "mycorp";
 
                 //create new connection
@@ -19,6 +21,7 @@
                 }
                 //this will run the mysql query
                 $sql = "SELECT first_name, last_name, title, last_updated FROM employees";
+                //make sure to brush up on pointers!!
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0) {
