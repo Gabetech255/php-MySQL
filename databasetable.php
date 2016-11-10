@@ -19,9 +19,11 @@ table, th, td {
 		$dbname = "mycorp";
 
 		echo "<h2>Employee Info Table</h2>";
-		//create new connection
+		//create new connection using sql injection
 		$conn = new mysqli($servername, $username, $password, $dbname);
+		//if conn points to connetion error
 		if ($conn->connection_error){
+			//die() returns a mesage then exits the entire php script. similar to break in C
 			die("Connection failed:" .$conn->connection_error);
 		}
 		//this will run the mysql query
