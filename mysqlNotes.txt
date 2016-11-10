@@ -15,3 +15,5 @@ LOGIN LINUX: $ mysql -u root -p --local-infile clients
 
 -- LOAD DATA LOCAL INFILE '/path/file.txt' INTO TABLE table_name;
 
+#IMPORT A TABLE FROM .SQL FILE 
+ -- $mysql -u username -p database_name < /path/filename.sql
