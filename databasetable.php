@@ -14,8 +14,8 @@ table, th, td {
 	<?php
 		//these var hold strings with the database and  authentication info
 		$servername = "localhost";
-		$username = "root";
-		$password = "toor";
+		$username = "username";
+		$password = "password";
 		$dbname = "mycorp";
 
 		echo "<h2>Employee Info Table</h2>";
