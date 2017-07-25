@@ -13,6 +13,10 @@ LOGIN LINUX: $ mysql -u root -p --local-infile clients
 	WHERE columnname = '' AND OR 
 	WHERE NOT
 	WHERE NOT = AND NOT 
+	
+	ORDER BY columnname ASC / DESC; 
+	
+-- A field with a NULL value is a field with no value.
 
 -- DESCRIBE table_name; #gives info on table 
 
