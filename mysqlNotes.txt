@@ -10,6 +10,9 @@ LOGIN LINUX: $ mysql -u root -p --local-infile clients
 -- USE database_name; # targets the database 
 
 -- SELECT * FROM table_name; # shows the contents of the selected table
+	WHERE columnname = '' AND OR 
+	WHERE NOT
+	WHERE NOT = AND NOT 
 
 -- DESCRIBE table_name; #gives info on table 
 
